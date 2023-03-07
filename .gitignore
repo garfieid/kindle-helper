@@ -1,0 +1,54 @@
+target/
+generator-plugin/
+.mvn
+mvnw
+mvnw.cmd
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.xlsx
+*.rar
+*.log
+*.lck
+cache
+
+### eclipse ###
+.classpath
+.project
+.settings/
+bin/
+
+*.bak
+
+### frontend
+.DS_Store
+node_modules
+frontend/
+!frontend/src
+!frontend/public
+dist
+dist.zip
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+yarn.lock
+package-lock.json
+
+# Editor directories and files
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+workspace
+/.metadata/
